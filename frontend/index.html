@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Speaking Assessment Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <div class="header">
+      <div class="brand">
+        <div class="logo">SR</div>
+        <div>
+          <div class="title">Speaking Assessment Report</div>
+          <div class="subtle">Summary of scores and descriptive feedback</div>
+        </div>
+      </div>
+      <!-- Student name block -->
+      <div id="student-name">
+        <span class="label">Student:</span>
+        <span class="value">John Doe</span>
+      </div>
+    </div>
+
+    <!-- Overall Score -->
+    <div class="card">
+      <div class="section-title">Overall score</div>
+      <div class="overall">
+        <div class="badge">Overall</div>
+        <div class="score">
+          <span id="overall-score">—</span>
+          <span class="outof">/ 9</span>
+        </div>
+        <span id="overall-pill" class="pill">—</span>
+      </div>
+      <div class="overall-feedback">
+        <div class="section-title">Overall feedback</div>
+        <div class="feedback-item">
+          <div id="overall-feedback">—</div>
+        </div>
+        <div class="footer-note">Feedback adapts automatically when scores change.</div>
+      </div>
+    </div>
+
+    <!-- Skill-wise Scores -->
+    <div class="card">
+      <div class="section-title">Skill-wise scores</div>
+      <div class="skills">
+        <div class="skill-row">
+          <div class="skill-name">Pronunciation</div>
+          <div class="bar"><div id="bar-pronunciation" class="bar-fill">0</div></div>
+          <div id="score-pronunciation" class="score-chip">—</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name">Fluency</div>
+          <div class="bar"><div id="bar-fluency" class="bar-fill">0</div></div>
+          <div id="score-fluency" class="score-chip">—</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name">Vocabulary</div>
+          <div class="bar"><div id="bar-vocabulary" class="bar-fill">0</div></div>
+          <div id="score-vocabulary" class="score-chip">—</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name">Grammar</div>
+          <div class="bar"><div id="bar-grammar" class="bar-fill">0</div></div>
+          <div id="score-grammar" class="score-chip">—</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Descriptive Feedback -->
+    <div class="card">
+      <div class="section-title">Descriptive feedback by skill</div>
+      <div class="feedback-block">
+        <div class="feedback-item">
+          <div class="label">Pronunciation <span id="pill-pronunciation" class="pill">—</span></div>
+          <div id="feedback-pronunciation">—</div>
+        </div>
+        <div class="feedback-item">
+          <div class="label">Fluency <span id="pill-fluency" class="pill">—</span></div>
+          <div id="feedback-fluency">—</div>
+        </div>
+        <div class="feedback-item">
+          <div class="label">Vocabulary <span id="pill-vocabulary" class="pill">—</span></div>
+          <div id="feedback-vocabulary">—</div>
+        </div>
+        <div class="feedback-item">
+          <div class="label">Grammar <span id="pill-grammar" class="pill">—</span></div>
+          <div id="feedback-grammar">—</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subtle">Tip: Edit backend/data.json and refresh to see feedback adapt to new scores.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

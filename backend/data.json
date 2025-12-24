@@ -1,0 +1,17 @@
+{
+  "name": "John Doe",
+  "overall": 7,
+  "scores": {
+    "pronunciation": 8,
+    "fluency": 7,
+    "vocabulary": 6,
+    "grammar": 5
+  },
+  "feedback": {
+    "overall": "Has reasonably good pronunciation with some accent. Demonstrates generally good fluency and coherence while speaking but may take occasional pauses. Vocabulary is adequate but sometimes limited. Grammar shows mix of simple and complex structures with some errors.",
+    "pronunciation": "Uses a wide range of pronunciation features. Easy to understand throughout; accent has minimal impact.",
+    "fluency": "Speaks fluently with minor pauses. Hesitation is content-related rather than lack of vocabulary.",
+    "vocabulary": "Has enough vocabulary to discuss topics but sometimes struggles with precision.",
+    "grammar": "Uses simple and complex structures but with limited flexibility. Errors rarely cause comprehension issues."
+  }
+}
